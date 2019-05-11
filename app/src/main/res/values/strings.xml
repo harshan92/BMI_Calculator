@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My BMI Meter</string>
+    <string name="weight_kg">Weight (Kg)</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="check">Check</string>
+    <string name="result">Result</string>
+    <string name="please_tap_check_button">Please TAP check_button</string>
+</resources>

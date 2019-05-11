@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".About" tools:visibility="visible">
+
+
+    <TextView
+            android:text="About"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/abt_title" android:textSize="36sp"
+            android:gravity="center"/>
+    <TextView
+            android:text="TextView"
+            android:singleLine="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/abt_txt1"
+            tools:text="Hi! I am  Harshan Madhuranga. I am a software engineer of UWE campus. This is a developing "
+            app:fontFamily="serif" android:layout_marginTop="22dp" android:layout_below="@+id/abt_title"
+            android:visibility="visible"/>
+    <TextView
+            android:text="TextView"
+            android:singleLine="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView7"
+            tools:text="The body mass index (BMI) or Quetelet index is a value derived from the mass (weight) and height of an individual. The BMI is defined as the body mass divided by the square of the body height, and is universally expressed in units of kg/m2, resulting from mass in kilograms and height in metres."
+            app:fontFamily="serif" android:layout_marginTop="22dp" android:layout_below="@+id/abt_txt1"/>
+    <Button
+            android:text="Back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/abt_back_button"
+            android:layout_marginTop="48dp" android:layout_below="@+id/textView8"
+            android:background="@color/colorPrimary" android:textColor="#F0F0F0"/>
+    <TextView
+            android:text="Email: harshan_madhuranga@yahoo.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView8" android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView7"/>
+</RelativeLayout>
